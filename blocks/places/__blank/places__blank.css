@@ -1,0 +1,5 @@
+.places__blank {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+}

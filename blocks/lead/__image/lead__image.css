@@ -1,0 +1,17 @@
+.lead__image {
+    align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+    }
+}
