@@ -1,4 +1,28 @@
 .places {
-    padding: 92px 148px;
     display: grid;
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        padding: 66px 0;                
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .places {
+        padding: 90px 148px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .places {
+        padding: 92px 148px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        padding: 92px 148px;
+    }
 }

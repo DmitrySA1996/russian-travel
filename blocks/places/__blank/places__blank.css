@@ -3,3 +3,13 @@
     display: flex;
     flex-direction: row;
 }
+
+.places__blank:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .places__blank {
+        flex-wrap: wrap;
+    }
+}

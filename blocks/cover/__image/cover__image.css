@@ -4,7 +4,35 @@
     background-image: url('../../../images/cover_baikal.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 1184px;
-    height: 740px;
     z-index: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__image {
+        height: 200px;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .cover__image {
+        height: 480px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__image {
+        height: 640px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__image {
+        height: 740px;
+        margin-bottom: 92px;
+    }
 }

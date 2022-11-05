@@ -1,7 +1,37 @@
 .places__title {
     margin: 0 40px 0 0;
     font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    width: 460px;
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 285px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 340px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .places__title {
+        font-size: 72px;
+        line-height: 76px;
+        width: 440px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__title {
+        font-size: 72px;
+        line-height: 76px;
+        width: 460px;
+    }
 }
