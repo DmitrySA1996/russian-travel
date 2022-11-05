@@ -1,0 +1,10 @@
+.cover__image {
+    position: relative;
+    opacity: 0.8;
+    background-image: url('../../../images/cover_baikal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1184px;
+    height: 740px;
+    z-index: 0;
+}
