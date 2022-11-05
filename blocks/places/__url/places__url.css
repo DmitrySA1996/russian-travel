@@ -4,3 +4,15 @@
     font-size: 12px;
     line-height: 170%;
 }
+
+@media screen and (max-width: 320px) {
+    .places__url {
+        width: 288px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__url {
+        flex-direction: row;
+    }
+}

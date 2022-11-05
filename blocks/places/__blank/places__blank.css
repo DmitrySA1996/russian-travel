@@ -1,7 +1,8 @@
 .places__blank {
+    margin: 0;
+    padding: 0;
     margin-bottom: 48px;
     display: flex;
-    flex-direction: row;
 }
 
 .places__blank:last-child {
@@ -10,6 +11,13 @@
 
 @media screen and (max-width: 320px) {
     .places__blank {
-        flex-wrap: wrap;
+        flex-direction: column;
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places__blank {
+        flex-direction: row;
     }
 }
