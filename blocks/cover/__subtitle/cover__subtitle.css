@@ -19,10 +19,46 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        width: 360px;
+        height: 66px;
+        top: 299px;
+        left: 204px;
+        right: 204px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        width: 360px;
+        height: 66px;
+        top: 429px;
+        left: 332px;
+        right: 379px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
+        width: 360px;
+        height: 66px;
+        top: 429px;
+        left: 412px;
+        right: 412px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 22px;
         width: 360px;
         height: 66px;
         top: 429px;

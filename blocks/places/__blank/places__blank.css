@@ -1,23 +1,27 @@
 .places__blank {
     margin: 0;
     padding: 0;
-    margin-bottom: 48px;
     display: flex;
 }
 
-.places__blank:last-child {
-    margin-bottom: 0;
-}
 
 @media screen and (max-width: 320px) {
     .places__blank {
         flex-direction: column;
-        width: 320px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .places__blank {
+        flex-direction: row;
+        margin-bottom: 73px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .places__blank {
         flex-direction: row;
+        margin-bottom: 48px;
     }
 }
