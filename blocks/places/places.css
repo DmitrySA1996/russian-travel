@@ -2,20 +2,20 @@
     display: grid;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .places {
         padding: 40px 0;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
         padding: 17px 0;
     }
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
     .places {
         padding: 44px 0;
     }

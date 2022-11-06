@@ -5,21 +5,21 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .places__blank {
         flex-direction: column;
         width: 100%;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__blank {
         flex-direction: row;
         margin-bottom: 73px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .places__blank {
         flex-direction: row;
         margin-bottom: 48px;

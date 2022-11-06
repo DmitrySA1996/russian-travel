@@ -9,21 +9,21 @@
     background-size: cover;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__image {
         height: 200px;
         margin-bottom: 64px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover__image {
         height: 480px;
         margin-bottom: 88px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__image {
         height: 640px;
         margin-bottom: 88px;
