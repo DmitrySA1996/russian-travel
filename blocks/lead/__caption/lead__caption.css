@@ -10,11 +10,11 @@
 @media screen and (max-width: 767px) {
     .lead__caption {
         margin-left: 16px;
-        }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lead__caption {
-        margin-left: 24px   ;
-        }
+        margin-left: 24px;
+    }
 }
