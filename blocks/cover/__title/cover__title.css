@@ -1,6 +1,5 @@
 .cover__title {
     margin: 0;
-    position: absolute;
     z-index: 1;
     font-weight: 900;
     text-align: center;
@@ -8,11 +7,9 @@
 
 @media screen and (max-width: 767px) {
     .cover__title {
+        margin-bottom: 16px;
         font-size: 32px;
         line-height: 35px;
-        top: 33px;
-        left: 16px;
-        right: 16px;
         width: 288px;
         height: 70px;
     }
@@ -20,11 +17,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover__title {
+        margin-bottom: 32px;
         font-size: 72px;
         line-height: 76px;
-        top: 115px;
-        left: 104px;
-        right: 104px;
         width: 560px;
         height: 152px;
     }
@@ -32,11 +27,9 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__title {
+        margin-bottom: 32px;
         font-size: 72px;
         line-height: 76px;
-        top: 195px;
-        left: 232px;
-        right: 232px;
         width: 560px;
         height: 152px;
     }
@@ -44,11 +37,9 @@
 
 @media screen and (min-width: 1280px) {
     .cover__title {
+        margin-bottom: 32px;
         font-size: 72px;
         line-height: 76px;
-        top: 245px;
-        left: 312px;
-        right: 312px;
         width: 560px;
         height: 152px;
     }

@@ -2,11 +2,12 @@
     margin: 0;
     font-weight: 900;
     text-align: center;
+    align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .title {
-        padding-top: 16px;
+        padding: 28px 0 8px 0;
         font-size: 40px;
         line-height: 44px;
     }
@@ -14,7 +15,7 @@
 
 @media screen and (min-width: 768px) {
     .title {
-        padding-top: 28px;
+        margin: 28px 0 24px 0;
         font-size: 96px;
         line-height: 100px;
     }

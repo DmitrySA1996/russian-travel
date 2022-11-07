@@ -3,3 +3,9 @@
     flex-direction: column;
     justify-content: end;
 }
+
+@media screen and (max-width: 767px) {
+    .places__links {
+        margin-bottom: 32px;
+    }
+}

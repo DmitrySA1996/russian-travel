@@ -1,7 +1,6 @@
 .cover__subtitle {
     margin: 0;
     padding: 0;
-    position: absolute;
     z-index: 1;
     font-weight: 400;
     text-align: center;
@@ -13,9 +12,6 @@
         line-height: 16px;
         width: 288px;
         height: 48px;
-        top: 119px;
-        left: 16px;
-        right: 16px;
     }
 }
 
@@ -25,9 +21,6 @@
         line-height: 22px;
         width: 360px;
         height: 66px;
-        top: 299px;
-        left: 204px;
-        right: 204px;
     }
 }
 
@@ -37,9 +30,6 @@
         line-height: 22px;
         width: 360px;
         height: 66px;
-        top: 429px;
-        left: 332px;
-        right: 379px;
     }
 }
 
@@ -49,8 +39,5 @@
         line-height: 16px;
         width: 360px;
         height: 66px;
-        top: 429px;
-        left: 412px;
-        right: 412px;
     }
 }
