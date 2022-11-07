@@ -25,6 +25,7 @@
 
 /* секция lead-----------------------------------------------------------------------------*/
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__card/lead__card.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /* ------------------------------------------------------------------------------------------*/
@@ -49,23 +50,23 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__cards/places__cards.css);
 @import url(../blocks/places/__card/places__card.css);
-@import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__subtitle/places__subtitle.css);
 @import url(../blocks/places/__blank/places__blank.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__text/places__text.css);
+@import url(../blocks/places/__subtitle/places__subtitle.css);
 @import url(../blocks/places/__links/places__links.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__image/places__image.css);
-@import url(../blocks/places/__text/places__text.css);
 /* ------------------------------------------------------------------------------------------*/
 
 
 /* секция cover--------------------------------------------------------------------------*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__image/cover__image.css);
-@import url(../blocks/cover/__link/cover__link.css);
 /* ------------------------------------------------------------------------------------------*/
 
 
