@@ -3,6 +3,7 @@
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background-color: #2A2C2F;
     color: #FFFFFF;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 320px) {

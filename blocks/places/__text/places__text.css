@@ -3,3 +3,9 @@
     flex-direction: column;
     width: 100%;
 }
+
+@media screen and (min-width: 1280px) {
+    .places__text {
+        width: 484px;
+    }
+}
