@@ -4,6 +4,8 @@
     list-style-type: none;
     width: 90%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 

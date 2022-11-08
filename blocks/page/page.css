@@ -3,17 +3,8 @@
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     background-color: #2A2C2F;
     color: #FFFFFF;
+    box-sizing: border-box;
+    min-width: 320px;
+    max-width: 1280px;
     overflow: hidden;
-}
-
-@media screen and (max-width: 320px) {
-    .page {
-        width: 320px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .page {
-        width: 1280px;
-    }
 }
