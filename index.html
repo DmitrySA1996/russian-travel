@@ -11,20 +11,20 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="images/logo-russia.png" alt="Россия">
-            <nav class="header__lang-links">
-                <a class="header__lang-link hover-opacity" href="#" target="_blank">RU</a>
-                <a class="header__lang-link hover-opacity" href="#" target="_blank">EN</a>
-            </nav>
+            <img class="header__logo" src="images/logo-russia.svg" alt="Россия">
+            <div class="header__lang-links">
+                <a class="header__lang-link header__lang-link_active hover-opacity" href="#" target="_self">RU</a>
+                <a class="header__lang-link hover-opacity" href="#" target="_self">EN</a>
+            </div>
         </header>
         <main class="content">
             <section class="lead">
                 <h1 class="title">Путешествия по России</h1>
                 <p class="subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__card">
+                <figure class="lead__card">
                     <img class="lead__image" src="images/women-sleep.png" alt="Женщина спит">
                     <p class="lead__caption">ваша полка — верхняя</p>
-                </div>
+                </figure>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -38,11 +38,11 @@
                     и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
                     достойные вашего отпуска.</p>
                 <ul class="intro__lists">
-                    <li class="intro__list">Часовых поясов 11</li>
-                    <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-                    <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li class="intro__list">Природных заповедников 105</li>
-                    <li class="intro__list">Аэропортов 241</li>
+                    <li class="intro__list">Часовых поясов <span class="intro__span-accent">11</span></li>
+                    <li class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+                    <li class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+                    <li class="intro__list">Природных заповедников <span class="intro__span-accent">105</span></li>
+                    <li class="intro__list">Аэропортов <span class="intro__span-accent">241</span></li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -184,7 +184,7 @@
                 </ul>
             </section>
             <section class="cover">
-                <a class="cover__link" href="#" target="_blank">
+                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
                     <div class="cover__image">
                         <h2 class="cover__title">До Байкала «на собаках»</h2>
                         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
