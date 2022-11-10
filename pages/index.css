@@ -3,8 +3,7 @@
 @import url(../blocks/page/page.css);
 
 
-/*Анимации и трансформации------------------------------------------------------------------*/
-@import url(../blocks/rotation/rotation.css);
+/*Анимации------------------------------------------------------------------*/
 @import url(../blocks/hover-opaccity/hover-opacity.css);
 /*------------------------------------------------------------------------------------------*/
 
@@ -17,6 +16,7 @@
 
 /* секция header-----------------------------------------------------------------------------*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__table/header__table.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -78,3 +78,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /* ------------------------------------------------------------------------------------------*/
+
+* {
+    outline: red 1px solid;
+}
