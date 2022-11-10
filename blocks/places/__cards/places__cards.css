@@ -1,7 +1,6 @@
 .places__cards {
     margin: 0 auto 12px auto;
     padding: 0;
-    width: 100%;
     list-style-type: none;
     align-items: center;
     display: flex;
@@ -18,11 +17,5 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__cards {
         width: 95.9%;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .places__cards {
-        width: 90%;
     }
 }

@@ -13,6 +13,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__image {
         height: 340px;
+        margin-right: 32px;
     }
 }
 
