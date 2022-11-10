@@ -1,5 +1,4 @@
 .lead {
-    padding-bottom: 88px;
     display: flex;
     flex-direction: column;
 }
@@ -7,5 +6,18 @@
 @media screen and (max-width: 767px) {
     .lead {
         padding-bottom: 64px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .lead {
+        padding-bottom: 88px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead {
+        padding-bottom: 92px;
     }
 }

@@ -1,5 +1,5 @@
 .places__blank {
-    margin: 0;
+    margin: 0 0 48px 0;
     padding: 0;
     display: flex;
 }
@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 767px) {
     .places__blank {
+        margin-bottom: 0;
         flex-direction: column;
         width: 100%;
     }
@@ -15,6 +16,10 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places__blank {
         flex-direction: row;
+        margin-bottom: 48px;
+    }
+
+    .places__blank:last-child {
         margin-bottom: 73px;
     }
 }
@@ -22,6 +27,5 @@
 @media screen and (min-width: 1024px) {
     .places__blank {
         flex-direction: row;
-        margin-bottom: 48px;
     }
 }

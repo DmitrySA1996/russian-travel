@@ -3,3 +3,9 @@
     position: relative;
     z-index: 0;
 }
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin: 0 4% 92px 4%;
+    }
+}

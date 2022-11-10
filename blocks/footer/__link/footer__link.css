@@ -7,7 +7,7 @@
 }
 
 .footer__link:last-child {
-    margin-right: 18px;
+    margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {

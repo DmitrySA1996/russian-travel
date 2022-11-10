@@ -16,28 +16,20 @@
 
 @media screen and (max-width: 767px) {
     .cover__image {
-        height: 200px;
         margin-bottom: 64px;
+        min-height: 480px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
     .cover__image {
-        height: 480px;
         margin-bottom: 88px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover__image {
-        height: 640px;
-        margin-bottom: 88px;
+        min-height: 640px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__image {
-        margin: 0 4% 92px 4%;
-        height: 740px;
+        min-height: 740px;
     }
 }

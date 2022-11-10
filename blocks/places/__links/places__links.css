@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 767px) {
     .places__links {
-        margin-bottom: 32px;
+        margin: 0 auto 32px auto;
+        width: 95.1%;
     }
 }

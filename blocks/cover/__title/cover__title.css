@@ -3,6 +3,7 @@
     z-index: 1;
     font-weight: 900;
     text-align: center;
+    width: 560px;
 }
 
 @media screen and (max-width: 767px) {
@@ -10,37 +11,15 @@
         margin-bottom: 16px;
         font-size: 32px;
         line-height: 35px;
+        width: 0;
         width: 288px;
-        height: 70px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px)  {
     .cover__title {
         margin-bottom: 32px;
         font-size: 72px;
         line-height: 76px;
-        width: 560px;
-        height: 152px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover__title {
-        margin-bottom: 32px;
-        font-size: 72px;
-        line-height: 76px;
-        width: 560px;
-        height: 152px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .cover__title {
-        margin-bottom: 32px;
-        font-size: 72px;
-        line-height: 76px;
-        width: 560px;
-        height: 152px;
     }
 }

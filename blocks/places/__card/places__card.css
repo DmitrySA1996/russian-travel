@@ -2,3 +2,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (min-width: 1024px) {
+    .places__card {
+        margin-bottom: 32px;
+    }    
+}
