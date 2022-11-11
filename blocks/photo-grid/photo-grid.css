@@ -33,6 +33,7 @@
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
+        margin: 0 auto;
         grid-template-columns: repeat(auto-fill, 284px);
         grid-template-rows: repeat(auto-fill, 213px);
         grid-auto-columns: repeat(auto-fit, 284px);

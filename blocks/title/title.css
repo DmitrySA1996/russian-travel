@@ -1,5 +1,5 @@
 .title {
-    margin: 0;
+    margin: 48px 0 32px 0;
     font-weight: 900;
     text-align: center;
     align-self: center;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 767px) {
     .title {
-        padding: 28px 0 8px 0;
+        margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
     }
@@ -15,9 +15,14 @@
 
 @media screen and (min-width: 768px) {
     .title {
-        margin: 28px 0 24px 0;
         font-size: 96px;
         line-height: 100px;
         width: 720px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .title {
+        margin-top: 56px;
     }
 }

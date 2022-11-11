@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .places__subtitle {
         font-size: 18px;
     }

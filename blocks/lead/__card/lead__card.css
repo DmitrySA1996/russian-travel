@@ -2,8 +2,14 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__card {
         width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .lead__card {
+        width: 984px;
     }
 }

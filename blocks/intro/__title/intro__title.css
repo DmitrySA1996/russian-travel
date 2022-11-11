@@ -17,3 +17,9 @@
         line-height: 58px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .intro__title  {
+        width: 690px;
+    }
+}
