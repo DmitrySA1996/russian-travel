@@ -5,7 +5,8 @@
 
 
 ## Описание
-Одностраничный сайт о путешествии. Сверстан по макету из фигмы: https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634
+Одностраничный сайт о путешествии: [Обычная ссылка]([https://www.yandex.ru](https://dmitrysa1996.github.io/russian-travel/)) 
+Сверстан по макету из фигмы: https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A634
 
 ## Функциональность
 1. На сайте можно перейти по ссылкам на полезные ресурсы, ссылки имеют прозрачность, если на них навестись;
