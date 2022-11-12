@@ -1,0 +1,29 @@
+.subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    width: 640px;
+}
+
+@media screen and (max-width: 767px) {
+    .subtitle {   
+        margin: 0 auto;
+        width: 288px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .subtitle {
+        margin: 0 auto 48px auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .subtitle {
+        margin: 0 auto 56px auto;
+    }
+}

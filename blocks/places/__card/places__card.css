@@ -1,0 +1,16 @@
+.places__card {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .places__card {
+        margin-bottom: 50px;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .places__card {
+        margin-bottom: 32px;
+    }    
+}
