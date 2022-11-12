@@ -16,9 +16,3 @@
         padding: 0 28% 0 5%;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .intro {
-        padding: 0 35% 0 12%;
-    }
-}
