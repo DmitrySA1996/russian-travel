@@ -43,7 +43,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__lists/intro__lists.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__mod/intro__mod_large-screen.css);
+@import url(../blocks/intro/__large-screen/intro__large-screen.css);
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 /* ------------------------------------------------------------------------------------------*/
 
