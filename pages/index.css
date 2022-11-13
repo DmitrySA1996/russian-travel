@@ -71,6 +71,7 @@
 
 /* секция cover--------------------------------------------------------------------------*/
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image-large/cover__image-large.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__title/cover__title.css);
