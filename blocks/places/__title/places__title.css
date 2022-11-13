@@ -1,5 +1,5 @@
 .places__title {
-    margin: 0 40px 0 0;
+    margin: 0 40px 48px 0;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
@@ -10,7 +10,7 @@
         margin: 0 auto;
         font-size: 32px;
         line-height: 35px;
-        width: 95.1%;
+        width: 89.3%;
     }
 }
 
