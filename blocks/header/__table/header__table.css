@@ -10,14 +10,8 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
-    .header__table {
-        width: 720px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .header__table {
-        width: 90%;
+        width: 100%;
     }
 }

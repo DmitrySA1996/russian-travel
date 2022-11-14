@@ -1,5 +1,5 @@
 .title {
-    margin: 56px 0 32px 0;
+    margin: 56px auto 32px auto;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -8,23 +8,18 @@
     max-width: 720px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .title {
         margin-top: 48px;
-        max-width: 100%;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 694px) {
     .title {
         margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .title {
         min-width: 288px;
     }
 }

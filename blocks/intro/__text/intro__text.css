@@ -3,6 +3,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+    text-align: left;
 }
 
 @media screen and (min-width: 1280px) {
