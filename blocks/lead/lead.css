@@ -11,14 +11,18 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
     .lead {
         padding-bottom: 88px;
+        padding-right: 0;
+        padding-left: 0;
+
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
     .lead {
         padding-bottom: 64px;
+
     }
 }
