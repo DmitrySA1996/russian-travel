@@ -4,7 +4,7 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 767px) {
     .places__blank {
         flex-direction: column;
         width: 100%;

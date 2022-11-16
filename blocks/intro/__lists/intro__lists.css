@@ -6,7 +6,7 @@
     list-style-type: none;
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (max-width:1023px) {
     .intro__lists {
         margin-bottom: 88px;
     }

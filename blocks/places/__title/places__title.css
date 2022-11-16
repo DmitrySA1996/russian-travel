@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .places__title {
         margin-right: 38px;
         font-size: 42px;
