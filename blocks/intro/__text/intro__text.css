@@ -2,10 +2,17 @@
     margin: 40px 0 33px 0;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 26.08px;
     text-align: left;
-    width: 720px;
+    width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__text {
+        width: 720px;
+    }
+}
+
 
 @media screen and (max-width: 765px) {
     .intro__text {

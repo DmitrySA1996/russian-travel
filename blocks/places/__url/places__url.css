@@ -3,18 +3,18 @@
     color: #AAAAAA;
     font-weight: 400;
     font-size: 12px;
-    line-height: 170%;
+    line-height: 12px;
     letter-spacing: 2px;
     flex-direction: row;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .places__url {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
     .places__url {
         margin-top: 32px;
         margin-bottom: 12px;

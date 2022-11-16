@@ -15,11 +15,10 @@
 
 @media screen and (max-width: 768px) {
     .places__title {
-        margin-right: 28px;
+        margin-right: 38px;
         font-size: 42px;
         line-height: 46px;
-        width: 340px;
-        align-self: end;
+        width: 330px;
     }
 }
 

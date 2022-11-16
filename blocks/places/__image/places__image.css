@@ -12,16 +12,22 @@
 
 @media screen and (max-width: 768px) {
     .places__image {
+        margin-right: 28px;
         height: 340px;
-        margin-right: 32px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
     .places__image {
         width: 100%;
-        height: 320px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__image {
         margin-bottom: 32px;
+        width: 100%;
+        height: 320px;
     }
 }
 
