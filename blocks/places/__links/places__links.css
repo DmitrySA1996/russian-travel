@@ -1,0 +1,15 @@
+.places__links {
+    margin: 0 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 599px) {
+    .places__links {
+        margin: 0 auto;
+        margin-bottom: 48px;
+        width: 89.3%;
+    }
+}
