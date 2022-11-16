@@ -1,18 +1,24 @@
 .places__text {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 484px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1048px) {
     .places__text {
-        margin: 0 auto;
-        width: 89.3%;
+        width: 456px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 984px) {
     .places__text {
-        width: 484px;
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .places__text {
+        margin: 0 auto;
+        width: 100%;
     }
 }

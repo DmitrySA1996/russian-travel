@@ -6,13 +6,14 @@
     width: 460px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
     .places__title {
+        margin-right: 32px;
         width: 440px;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
     .places__title {
         margin-right: 28px;
         font-size: 42px;
@@ -20,10 +21,9 @@
         width: 340px;
         align-self: end;
     }
-
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
     .places__title {
         margin: 0 auto;
         font-size: 32px;
