@@ -1,0 +1,25 @@
+.places__subtitle {
+    margin: 0 0 25px 0;
+    font-weight: 400;
+    line-height: 29.34px;
+    max-width: 484px;
+    font-size: 18px;
+}
+
+.places__subtitle:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .places__subtitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 599px) {
+    .places__subtitle {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}

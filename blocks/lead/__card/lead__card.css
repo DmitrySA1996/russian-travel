@@ -1,0 +1,16 @@
+.lead__card {
+    margin: 0;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__card {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 946px) {
+    .lead__card {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.places__blank {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+    .places__blank {
+        flex-direction: column;
+        width: 100%;
+    }
+}
